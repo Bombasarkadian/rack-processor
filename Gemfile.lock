@@ -9,6 +9,8 @@ GEM
       rack
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
+    rack-utf8_sanitizer (1.5.0)
+      rack (>= 1.0, < 3.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -31,6 +33,7 @@ DEPENDENCIES
   loader
   rack-app
   rack-test
+  rack-utf8_sanitizer
   rspec
 
 BUNDLED WITH
